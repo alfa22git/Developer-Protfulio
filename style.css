@@ -1,55 +1,55 @@
 body{
     font-family: 'Crimson Text', serif;
     font-family: 'Roboto Slab', serif;
+    margin: 0%;
 }
 
 .header_Section{
     display: flex;
-    background-color: bisque;
+    margin-bottom: 20px;
+    background-image: url(images/top-banner.png);
+    background-repeat: no-repeat;
     
 }
 
 .header_Section h1{
-    border: 8px solid rgb(206, 241, 154);
-    font-size: 2.5em;
+    font-size: 2.75em;
 }
 
 .header_text{
-    border: 8px solid greenyellow;
-    border-radius: 20px;
-    padding: 15px;
-    margin: 20px;
-    width: 60%;
+    /* border: 8px solid greenyellow;
+    border-radius: 20px; */
+    padding-left: 4%;
+    width: 50%;
 
 }
 
 .header_text h4{
     font-size: 22px;
-    color: brown;
 }
 
 .header_text p{
-    color: hotpink;
     font-size: 18px;
 }
 
-.header_text button{
-    color: rgb(247, 247, 247);
-    background-color: rgb(104, 61, 61);
-    border-radius: 5px;
-    width: 150px;
-    height: 40px;
-    font-size: 20px;   
+.link_button{
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image:linear-gradient(orange,tomato);
+    padding: 10px 40px;
+    border-radius: 8px;
 }
+
 .user_name{
     color: rgba(216, 24, 114, 0.748);
 
 }
 
 .header_image{
-    border: 8px solid rgb(255, 130, 47);
-    border-radius: 20px;
-    margin: 20px;
+    /* border: 8px solid rgb(255, 130, 47);
+    border-radius: 20px; */
+    
     width: 50%;
 
 }
